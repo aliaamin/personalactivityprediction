@@ -5,7 +5,7 @@ date: "Saturday, June 06, 2015"
 output: html_document #ioslides_presentation
 ---
 
-## Introduction
+## Executive Summary
 
 Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement - a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it. 
 
@@ -121,7 +121,6 @@ From the table above it can be concluded that the best performer is the Random F
 The error rate of the Random Forest method is:
 ```{r warning=FALSE,  message=FALSE}
 print(model1)
-plot(model1)
 ```
 
 #### Step 6: Use the best method to predict on the validating dataset
